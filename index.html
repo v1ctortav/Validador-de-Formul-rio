@@ -3,8 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>Validador Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <main class="register-contianer">
+        <section class="img-container">
+            <img src="https://images.pexels.com/photos/36151752/pexels-photo-36151752/free-photo-of-minimalist-abstract-yellow-and-orange-paper-art.jpeg">
+        </section>
+        <section class="form-container">
+            <h1>Formulário de Cadastro</h1>
+            <form action="#" method="post" class="formulario" id="form-register">
+                <label>Nome</label>
+                <input type="text" class="input-text" id="input-name" placeholder="Fulano">
+                <label>Sobrenome</label>
+                <input type="text" class="input-text" id="input-surname" placeholder="de Tal">
+                <label>CPF</label>
+                <input type="text" class="input-text" id="input-cpf" placeholder="123.456.789-10">
+                <label>Usuário</label>
+                <input type="text" class="input-text" id="input-user" placeholder="fulaninho123">
+                <label>Senha</label>
+                <input type="password" class="input-text" id="input-password" placeholder="*******">
+                <label>Repetir Senha</label>
+                <input type="password" class="input-text" id="input-rpassword" placeholder="*******">
+                <button type="submit">Cadastrar-se</button>
+            </form>
+        </section>
+    </main>
+    <script src="validadorCPF.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
